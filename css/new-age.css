@@ -290,12 +290,27 @@ section.download {
     section.download h2 {
       font-size: 70px; } }
 
+
+/*Developer Headings*/
 section.features .section-heading {
   margin-bottom: 100px; }
   section.features .section-heading h2 {
+    color: #ffffff;
     margin-top: 0; }
   section.features .section-heading p {
     margin-bottom: 0; }
+
+section.privacy {
+  background-color: #000000
+}
+
+section.privacy .section-title h2 {
+  text-align: center;
+  color:#ffffff;
+}
+section.privacy p {
+  color:#ffffff;
+}
 
 section.features .device-container,
 section.features .feature-item {
@@ -309,6 +324,7 @@ section.features .device-container {
       margin-bottom: 0; } }
 
 section.features .feature-item {
+  /* Distance between text and images
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center; }
@@ -387,7 +403,7 @@ footer {
   padding: 25px 0;
   text-align: center;
   color: rgba(255, 255, 255, 0.3);
-  background-color: #222222; }
+  background-color: #191919; }
   footer p {
     font-size: 12px;
     margin: 0; }
@@ -400,6 +416,12 @@ footer {
         text-decoration: none; }
 
 .bg-primary {
+  background: #008040;
+  background: -webkit-linear-gradient(#191919, #000000);
+  background: linear-gradient(#191919, #000000); }
+
+/*Background Color on Developer Section*/
+.bg-primary2 {
   background: #008040;
   background: -webkit-linear-gradient(#191919, #000000);
   background: linear-gradient(#191919, #000000); }
@@ -429,3 +451,35 @@ footer {
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px; }
+
+.imgContainer{
+    float:left;
+}
+
+/*Developer Descriptions and Titles*/
+
+#intro {
+  padding: 10px 0;
+}
+#intro .block h2 {
+  padding-top: 35px;
+  line-height: 27px;
+  margin: 0;
+}
+#intro .block p {
+  /*color: #7B7B7B;*/
+  color: #FFFFFF;
+  padding-top: 20px;
+}
+#intro .block img {
+  padding-left: 40px;
+  width: 100%;
+}
+#intro .section-title {
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+#intro .section-title p {
+  padding-top: 20px;
+  color: #858C95;
+}
