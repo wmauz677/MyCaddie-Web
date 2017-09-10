@@ -308,7 +308,14 @@ section.privacy .section-title h2 {
   text-align: center;
   color:#ffffff;
 }
+
+section.privacy .section-title h3 {
+  font-size: 30px;
+  color:#008040;
+}
+
 section.privacy p {
+  font-size: 15px;
   color:#ffffff;
 }
 
@@ -482,4 +489,8 @@ footer {
 #intro .section-title p {
   padding-top: 20px;
   color: #858C95;
+}
+
+#intro .section-title a {
+  color: #33FF33;
 }
