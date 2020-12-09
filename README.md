@@ -36,7 +36,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li><a href="#contributing">Contributors</a></li>
+    <li><a href="#contributors">Contributors</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
@@ -69,7 +69,7 @@ Source Control
 * [GitHub](https://github.com)
 * [iTerm2](https://iterm2.com)
 
-### Contributers
+### Contributors
 
 ![MyCaddie Website Screenshot][liao-screenshot]
 Kevin Liao
